@@ -14,3 +14,5 @@ This repository is an uprade version to comply to HTML5/CSS3/WCAG 2.1.
 ![html5](https://a11ybadges.com/badge?logo=html5)
 
 ![css3](https://a11ybadges.com/badge?logo=css3)
+
+![WCAG 2.1 A](https://www.w3.org/WAI/wcag21/wcag2.1A-blue-v.svg)

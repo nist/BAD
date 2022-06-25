@@ -12,3 +12,5 @@ This example was made some time ago.
 This repository is an uprade version to comply to HTML5/CSS3/WCAG 2.1.
 
 ![html5](https://a11ybadges.com/badge?logo=html5)
+
+![css3](https://a11ybadges.com/badge?logo=css3)

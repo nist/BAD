@@ -122,7 +122,7 @@
 .annot_link  a:focus, .annot_link  a:active, .annot_link  a:hover {
   background: #fff !important;
   color: #000 !important;
-  border-color: #000; !important;
+  border-color: #000 !important;
 }
 
 .annot_link img {

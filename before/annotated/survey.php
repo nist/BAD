@@ -126,7 +126,7 @@ if(isset($submit)) {
       <p class="subline">Improving a Web site using Web Content Accessibility Guidelines (WCAG) 2.0</p>
       <div id="mnav" class="inaccessible">
         <ul>
-          <li class="first"><a href="../../Overview.html">Overview</a></li>
+          <li class="first"><a href="../../index.html">Overview</a></li>
           <li class="first"><a href="home.html">Home</a></li>
           <li><a href="news.html">News</a></li>
           <li><a href="tickets.html">Tickets</a></li>

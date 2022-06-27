@@ -10,7 +10,6 @@
   background: #eef;
 }
 
-/** Start of the report table style **/
 table.report {
   width: 100%;
   margin: 5px 0;
@@ -223,24 +222,22 @@ tr.evaluation td ul ul{
   list-style: none;
 }
 
-/* #page */
-
 body {
   background-color: #d7d7cd;
 }
 
-#page a:visited, #page a:link {
+section a:visited, section a:link {
   color:#044;
   text-decoration: underline;
 }
 
-#page a:focus, #page a:hover, #page a:active {
+section a:focus, section a:hover, section a:active {
   color:#fff;
   background-color: #044;
   text-decoration: underline;
 }
 
-#page h2 a:focus, #page h2 a:hover, #page h2 a:active {
+section h2 a:focus, section h2 a:hover, section h2 a:active {
   color:#333;
   background-color: #fff;
   text-decoration: none;
@@ -272,11 +269,11 @@ p.highlight-version {
   font-size: 1em;
 }
 
-#meta-header {
+header {
   margin-bottom: 4em;
 }
 
-#page {
+section {
   font-family: "Gill Sans", Helvetica, Arial, sans-serif;
   color: #333;
   width: 54em;
@@ -292,7 +289,7 @@ p.highlight-version {
   max-width: 98%;
 }
 
-#page .main {
+section .main {
   padding: 10px;
 }
 
@@ -305,6 +302,6 @@ caption {
   font-size: .9em !important;
 }
 
-#page h2 {
+section h2 {
   margin: 1em 0 0;
 }

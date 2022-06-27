@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-#meta-header, #meta-footer {
+header, footer {
   line-height: 1.4;
   font-size: 0.9em;
   color: #000000;
@@ -12,27 +12,24 @@ body {
   padding: 0;
 }
 
-#meta-header {
+header {
   float: left;
   width: 100%;
   padding-top: 10px;
 }
 
-#meta-footer {
+footer {
   overflow: hidden;
 }
 
-#meta-header a, #meta-header a, #meta-header a, #meta-footer a, #meta-footer a, #meta-footer a {
+header a, header a, header a, footer a, footer a, footer a {
   color: blue;
 }
 
-
-#meta-header a:hover, #meta-header a:focus, #meta-header a:active, #meta-footer a:hover, #meta-footer a:focus, #meta-footer a:active {
+header a:hover, header a:focus, header a:active, footer a:hover, footer a:focus, footer a:active {
   color: #ffffff;
   background-color: #cc0000;
 }
-
-/* Skipnav */
 
 #skipnav a {
   position: absolute;
@@ -53,13 +50,13 @@ body {
   background: #cc0000;
 }
 
-#meta-header h1 {
+header h1 {
   float: left;
   margin: 0 10px 5px;
   padding: 0;
 }
 
-#meta-header p.subline {
+header p.subline {
   float: left;
   clear: left;
   margin: 0 10px 1.5em 10px;
@@ -86,11 +83,11 @@ body {
   list-style-image: url('../img/empty.gif');
 }
 
-#meta-footer {
+footer {
   padding: 1em;
 }
 
-#meta-footer hr{
+footer hr{
   position: absolute;
   top: -1000em;
   left: -1000em;
@@ -99,16 +96,11 @@ body {
   overflow: hidden;
 }
 
-#page {
+section {
   background-color: #d7d7cd;
   padding: 3em 0;
   clear: both;
 }
-
-
-/* ==============================================
-   GENERAL CLASSES
-============================================== */
 
 /* move out of viewport, but visible for screenreaders */
 .hidden {
@@ -120,12 +112,7 @@ body {
   overflow: hidden;
 }
 
-/* ==============================================
-   META NAVIGATION
-============================================== */
-
-
-#mnav {
+nav {
   position: relative;
   clear: both;
   float: left;
@@ -134,25 +121,25 @@ body {
   background: url(../img/glossy.png) repeat-x;
 }
 
-* html #mnav {
+* html nav {
   background-image: none;
 }
 
-#mnav.accessible {
+nav.accessible {
   background-color: #669900;
 }
 
-#mnav.inaccessible {
+nav.inaccessible {
   background-color: #c00;
 }
 
-#mnav ul {
+nav ul {
   display: block;
   margin: 0;
   padding: 0;
 }
 
-#mnav ul li {
+nav ul li {
   display: block;
   margin: 0;
   padding: 0;
@@ -160,11 +147,11 @@ body {
   list-style-image: url('../img/empty.gif');
 }
 
-* html #mnav ul, * html #mnav ul li {
+* html nav ul, * html nav ul li {
   display: inline;
 }
 
-#mnav a, #mnav .current {
+nav a, nav .current {
   color: #222;
   min-height: 20px;
   display: block;
@@ -188,28 +175,28 @@ body {
   text-decoration: none;
 }
 
-#mnav .current {
+nav .current {
   background-color: #d7d7cd;
   margin-top: -8px;
   padding: 9px 5px;
 }
 
-#mnav ul li.first {
+nav ul li.first {
   float: left;
   margin-left: 10px !important;
 }
 
-#mnav a:hover, #mnav a.annotoggle:hover {
+nav a:hover, nav a.annotoggle:hover {
   background-color: #fff;
   color: #111;
 }
 
-#mnav a:focus, #manv a:active, #mnav a.annotoggle:focus, #mnav a.annotoggle:active {
+nav a:focus, nav a:active, nav a.annotoggle:focus, nav a.annotoggle:active {
   background-color: #cc0000;
   color: #ffffff;
 }
 
-#mnav a.annotoggle {
+nav a.annotoggle {
   position: absolute;
   display: block;
   bottom: 0;
@@ -234,7 +221,7 @@ body {
   font-weight: normal;
 }
 
-#mnav.annotated a.annotoggle span {
+nav.annotated a.annotoggle span {
   color: #000 !important;
 }
 
@@ -324,7 +311,7 @@ body {
   width: 4em !important;
 }
 
-.subnav li a.page {
+.subnav li a.section {
   width: 6.25em;
 }
 

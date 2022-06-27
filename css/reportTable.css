@@ -229,12 +229,12 @@ body {
   background-color: #d7d7cd;
 }
 
-#exitpage a:visited, #page a:visited, #exitpage a:link, #page a:link {
+#page a:visited, #page a:link {
   color:#044;
   text-decoration: underline;
 }
 
-#exitpage a:focus, #page a:focus, #exitpage a:hover, #page a:hover, #exitpage a:active, #page a:active {
+#page a:focus, #page a:hover, #page a:active {
   color:#fff;
   background-color: #044;
   text-decoration: underline;
@@ -276,7 +276,7 @@ p.highlight-version {
   margin-bottom: 4em;
 }
 
-#page, #exitpage {
+#page {
   font-family: "Gill Sans", Helvetica, Arial, sans-serif;
   color: #333;
   width: 54em;
@@ -290,25 +290,6 @@ p.highlight-version {
   line-height: 1.4;
   font-size: 87.5%;
   max-width: 98%;
-}
-
-#exitpage {
-  width: 25em;
-  padding-bottom: 10px;
-}
-
-#exitpage h1 {
-  margin: 0;
-  background-color: #ffa;
-  border-bottom: 1px solid #999;
-  padding: 10px;
-  line-height: 1.2;
-  font-size: 1.4em;
-}
-
-#exitpage p {
-  margin: 0;
-  padding: 10px 10px 0;
 }
 
 #page .main {

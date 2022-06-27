@@ -100,7 +100,7 @@ if(isset($submit)) {
         background: #a9b8bf;
       }
     </STYLE>
-    <LINK HREF="../../css/meta.css" rel="stylesheet" type="text/css">
+    <LINK HREF="../css/meta.css" rel="stylesheet" type="text/css">
     <SCRIPT type="text/javascript">
       function ChangeColor(id, colour){
         document.getElementById(id).style.backgroundColor=colour;
@@ -115,7 +115,7 @@ if(isset($submit)) {
     </SCRIPT> 
     <NOSCRIPT><B><FONT COLOR=RED>This page uses scripts!!!</FONT></B></NOSCRIPT>
     <script src="../../js/onload.js" type="text/javascript"></script>
-    <link href="../../css/inbetween.css" rel="stylesheet" type="text/css">
+    <link href="../css/inbetween.css" rel="stylesheet" type="text/css">
     <script src="../../js/annotations.js" type="text/javascript"></script>
   </HEAD>
   <BODY TEXT=#000000 BGCOLOR=#D7D7CD LEFTMARGIN=0px TOPMARGIN=0px MARGINWIDTH=0px MARGINHEIGHT=0px LINK=#226C8E VLINK=#226C8E ALINK=#226C8E>

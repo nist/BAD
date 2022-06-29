@@ -101,7 +101,7 @@ header label#qklabel {
   padding-right: 5px;
 }
 
-#main {
+#main #insidemain {
   background: url(../after/img/content_bg.gif) 8.5em 0 repeat-y #e4e4e4;
   float: left;
   width: 100%;
